@@ -1,0 +1,100 @@
+{
+  "browser": {
+    "failed": 0,
+    "passed": 6,
+    "report_sha256": "abd08595fbc100fdb5922a524adb8927d0480359b1b2c977a470438f18bc8d45"
+  },
+  "compatibility": {
+    "blocks": true,
+    "hpos": true
+  },
+  "environment": {
+    "mysql": "8.0.46",
+    "php": [
+      "8.3.35",
+      "8.5.8"
+    ],
+    "woocommerce": "11.1.2",
+    "wordpress": "7.1.2"
+  },
+  "gates": {
+    "browser": true,
+    "installed_production_archive": true,
+    "javascript": true,
+    "php_formatting_errors": true,
+    "php_lint": true,
+    "phpstan_level_5": true,
+    "phpunit_matrix": true,
+    "reviewed_security_findings": true,
+    "translation_catalog": true
+  },
+  "javascript": {
+    "assertions": 0,
+    "report_sha256": "4c69940d56d8f7958f7cd8e91ee2424b28031bde507d548258ac145d6d878d64",
+    "tests": 9
+  },
+  "limitations": [
+    "Provider HTTP outcomes intercepted; no live merchant delivery qualification.",
+    "No load benchmark or universal theme/extension compatibility claim.",
+    "External payout execution and processor erasure require merchant confirmation."
+  ],
+  "package_smoke": {
+    "blocks_affirmative_optin": true,
+    "checks": 15,
+    "consent_not_inferred": true,
+    "deactivation_preserves_history": true,
+    "idempotent_checkout": true,
+    "order_minor": 1234,
+    "passed": true,
+    "production_autoload": true
+  },
+  "phpunit_matrix": [
+    {
+      "assertions": 12127,
+      "hpos_sync": true,
+      "order_storage": "hpos",
+      "php": "8.3.35",
+      "report_sha256": "49e50690009b6a2d371b811c5e73381bdb6fdc7b1eb124a47a3a6e14037f7fd3",
+      "tests": 102
+    },
+    {
+      "assertions": 12128,
+      "hpos_sync": false,
+      "order_storage": "legacy",
+      "php": "8.3.35",
+      "report_sha256": "815c0fe1bec6edb5a5e878faae401481c406f2f7545c20c3520a2fde6de97322",
+      "tests": 102
+    },
+    {
+      "assertions": 12127,
+      "hpos_sync": true,
+      "order_storage": "hpos",
+      "php": "8.5.8",
+      "report_sha256": "b8036c721969eb543d3670f7665efae15024294670d24770c91c582ab58dfefe",
+      "tests": 102
+    },
+    {
+      "assertions": 12128,
+      "hpos_sync": false,
+      "order_storage": "legacy",
+      "php": "8.5.8",
+      "report_sha256": "20a6d3f8c6bef479e8303129d41b4b4441d398dc6e5798977b7458f86914e4a0",
+      "tests": 102
+    }
+  ],
+  "qualified_at": "2026-10-04T09:30:14.859691+00:00",
+  "security_review": "docs/SECURITY-REVIEW.md",
+  "source_sha256": "6aef86b2a818b0fac9fdfd3617fb7edf472335971fcaf2c76b34312fc4427d04",
+  "static": {
+    "advisory_style_warnings": 918,
+    "lint_files": 47,
+    "phpcs_errors": 0,
+    "phpstan_errors": 0,
+    "phpstan_level": 5
+  },
+  "translations": {
+    "messages": 897,
+    "passed": true
+  },
+  "version": "1.0.0"
+}

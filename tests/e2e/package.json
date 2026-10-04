@@ -1,0 +1,6 @@
+{
+  "name": "wmos-admin-qualification",
+  "private": true,
+  "scripts": {"test": "playwright test", "builders": "node --test ../JavaScript/*.test.js"},
+  "devDependencies": {"@playwright/test": "1.58.2", "jsqr": "1.4.0", "@axe-core/playwright": "4.11.1"}
+}

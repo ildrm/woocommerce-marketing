@@ -1,0 +1,54 @@
+## Phase 14 — Administration UX
+
+### Information architecture and application shell
+
+Add a Marketing submenu under WooCommerce using the public WordPress administration-menu API; optional menu hooks remain isolated in the WordPress adapter. The screen uses the WordPress/WooCommerce header, notices, typography, controls and navigation conventions. Use WordPress packages for components, data/api-fetch, i18n and accessibility, with build-generated dependency metadata and the supported WooCommerce packages verified at release. Do not bundle another React runtime. Load the SPA/assets only on the plugin screen; optional feature bundles load when their route opens. Package handles/dependencies follow [WordPress script enqueuing](https://developer.wordpress.org/plugins/javascript/enqueuing/), not hand-maintained guesses.
+
+Navigation groups:
+
+| Group | Screens and purpose |
+|---|---|
+| Overview | Actionable summary, pending approvals, channel/queue exceptions and next scheduled campaigns |
+| Campaigns | Campaign list/builder, content/assets, promotions/offers, offline placements/QR and event tasks |
+| Automations | Workflow list/builder, run inspector, safe pause/resume and failure queue |
+| Customers | Permission-gated contact timeline, identity provenance, preferences, segments/audiences |
+| Programs | Loyalty, referrals, affiliates, influencers and co-marketing assignments |
+| Measure | Analytics, attribution and experiments with provenance/data-quality panels |
+| Settings | Channels/integrations, consent/privacy, brand/senders, tracking, budgets, retention, import/export |
+| Operations | Logs/audit, System Health, migration/queue/privacy jobs and compatibility status |
+
+Aliases/deep links preserve candidate screen names without overcrowding the sidebar. Disabled modules appear only in an optional-feature catalog, not as broken navigation. Capability checks shape UI but never replace server permissions. Search/filter state lives in shareable query parameters except PII; contact queries are not placed in URLs. Deep links identify UUIDs and the server enforces site/object scope. UTC API instants display in the chosen reporting/merchant IANA timezone with explicit zone labels.
+
+### Onboarding and safe operating states
+
+First-run setup checks WooCommerce/PHP/database/queue compatibility, asks which features the merchant needs, creates no campaign sends and collects no behavioral data. The merchant configures purposes/consent source, retention and financial policy, sender/provider connection, verified sender/domain and optional tracking. Test connection is a scoped health call; test sending has a verified destination, privacy gates and visible cost estimate. A guided example campaign remains a draft. Legal/policy fields require merchant decisions, with contextual explanations and source links rather than a misleading compliance-certified badge.
+
+Every list supports empty/loading/error/partial/stale states, keyboard-accessible filters, pagination and bulk job progress. Empty states explain the next concrete step. Error messages identify affected object, safe reason, action and correlation reference. Provider outage creates a persistent affected-channel notice, not an alert on every unrelated screen. Long commands return a job with counts, checkpoint, next retry and permitted cancel/resume; closing the browser does not lose work. Optimistic updates are reserved for reversible draft edits; publication, payout, consent and deletion await authoritative responses. ETag conflicts offer compare/reload/copy-draft choices rather than silently overwrite.
+
+### Campaign, segment and workflow builders
+
+Campaign builder follows Goal → Audience → Content/channels → Offers/tracking → Schedule/budget → Review. The goal defines metric, currency/time window and attribution model. Audience preview shows count, data freshness, channel consent-eligible subset and suppression reasons; this is an estimate, since dispatch rechecks. Channel tabs validate provider capabilities/templates and disclose unavailable features. Draft content supports shared assets plus channel variants; previews use synthetic/customer-approved sample data, never indiscriminately expose a random customer's profile.
+
+Review presents exact immutable version, audience definition/snapshot policy, consent/policy requirements, timezone-resolved send time, quiet-hour behavior, maximum cost/budget, coupon effects, provider readiness, tracking choices and unresolved warnings. Publish/schedule creates that version with server validation; failed checks return field/path links. Pausing shows queued versus in-flight operations, and supported cancellation status. Resume revalidates eligibility; it does not silently resend accepted messages. Cloning strips history/assignments and creates a draft. Destructive actions explain scope and have confirmation; reversible draft deletion offers undo through a retained draft tombstone.
+
+Segment builder presents typed criteria and nested AND/OR groups. Criteria expose available fields, operators, valid units, data freshness and purpose requirements. “Never purchased” explicitly distinguishes no eligible order from missing/import-incomplete history. An accessible text/rule tree always mirrors visual nesting. Preview is an asynchronous bounded query with estimated cost and sampled count where full computation is pending; large expensive criteria require materialization. Show membership policy/version, refresh timestamp, entry/exit behavior and retention constraints. No SQL editor or executable merchant expression exists.
+
+Workflow builder offers a canvas plus equivalent ordered outline/table; keyboard users can add/move/connect nodes without drag-and-drop. Node forms support trigger, condition/filter, branch, delay/wait, action, goal, exit, deterministic split, experiment split, webhook and bounded subworkflow. Conditions use the same typed registry as segments where semantics match. Show edge labels, missing branches, loop prohibition/explicit bounds, unreachable nodes, consent requirements, maximum entry frequency, channel capability checks and subworkflow depth. Publish requires server graph validation and simulations on synthetic fixtures.
+
+Run inspector shows exact version, trigger/dedupe key, recorded decision operands (minimized), transitions, waits and errors, correlation and delivery outcomes. Operators can cancel/retry a safe failed step; ambiguous provider submission routes to reconciliation, not a “retry all” button. Historical published graphs remain read-only; edits create a new draft and clearly state which new entrants use it. Existing runs do not silently move versions. Delay forms distinguish elapsed duration from local calendar scheduling and explain DST resolution.
+
+### Program, measurement and operations screens
+
+Promotion editor labels execution as native coupon, supported extension strategy or tracked offer. It links to the canonical WooCommerce coupon and previews server eligibility; advanced discounts unavailable for the selected environment cannot be published as executable. Loyalty shows earn/redeem/expire/reverse entries and reserved/spendable balances, program-rule versions and manual adjustments with reasons. Affiliate approval separates pending/held/approved/exported/paid/reversed entries; payout batches display currency totals, review actor and integration reconciliation. Referral fraud queues show explainable evidence and review status without exposing unrelated shopper identities.
+
+Influencer assignment screens manage deliverables/deadlines/approval, links/codes, costs and commission rules. Offline builder manages placement descriptor, creative, dates, procurement/physical execution tasks, cost, destination, one unique link/QR per placement and print-ready exports. Scan counts are labeled digital interactions, not verified attendance/reach. QR export includes accessible destination text and a short URL fallback; changing a link requires a review of already printed assets. Event registrations include attendance source and program/marketing consent separately; no automatic attendee marketing grant.
+
+Overview prioritizes net attributed revenue with its model/window, active campaign/run status, deliverability and queue failures, abandoned-cart eligible counts, at-risk customers with rule definition, materialization freshness, experiments and integration health. Each card links to a prefiltered report and explains numerator/denominator. Analytics controls require period/timezone, currency/basis, model/lookback and cohort; comparison periods use equal local-day durations and disclose partial current-day data. Missing costs yield unavailable CAC/ROI, not zero. Small cohorts/permissions suppress contact detail; chart tables remain accessible. Experimental results show “exploratory” until the prespecified decision boundary closes.
+
+System Health surfaces requirements/schema/migrations, Action Scheduler/cron heartbeat and lag, failures/dead letters, provider/authentication/webhook state, event/aggregate lag, segment freshness, retention/privacy backlog, HPOS/Blocks compatibility test version and storage estimates. A successful connection test does not prove webhook delivery or domain authentication. Diagnostics exports omit secrets/PII and show content for review before download. Settings expose secret replacement, rotation/revoke and scopes without redisplaying secrets. Definition import previews schema validation, dependencies, feature gaps and changes before committing a draft-only job.
+
+### Accessibility, localization and review
+
+Target [WCAG 2.2 AA](https://www.w3.org/TR/WCAG22/) as a design/test acceptance standard; verify automated checks plus manual keyboard/screen-reader workflows. Use semantic headings/labels, visible focus, no color-only states, error summary with field links, touch targets, accessible dialogs/focus return and live-region job updates without announcing each polling tick. Canvas pan/zoom and chart inspection have keyboard/text alternatives. Support reduced motion, 200–400% zoom/reflow, RTL, translation/plurals, locale numbers/date/currency formatting and screen-reader-friendly money units. Currency display uses recorded exponent, not an assumed two decimals. Email/landing blocks need semantic structure, meaningful links and alt text; admin accessibility alone is insufficient.
+
+UX review found 20 flat navigation items would obscure routine work: grouped screens retain deep links and progressive disclosure. It found visual-only workflow editing excluded keyboard users: equivalent outline operations are mandatory. It found audience count and estimated spend implied guaranteed sends/costs: review now labels estimates and actual dispatch decisions. Analytics review found comparison cards could mix currencies or unequal periods: those dimensions are explicit and report state is preserved in drill-down.

@@ -1,0 +1,11 @@
+/vendor/
+node_modules/
+test-results/
+playwright-report/
+/.runtime/
+/.phpunit.cache/
+/dist/
+/coverage/
+*.log
+.DS_Store
+__pycache__/

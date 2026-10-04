@@ -1,0 +1,17 @@
+parameters:
+    level: 5
+    treatPhpDocTypesAsCertain: false
+    paths:
+        - src
+        - uninstall.php
+    bootstrapFiles:
+        - tools/analysis-bootstrap.php
+    scanFiles:
+        - vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+        - tools/analysis-cli.php
+        - .runtime/wordpress/wp-content/plugins/woocommerce/woocommerce.php
+        - .runtime/wordpress/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php
+    scanDirectories:
+        - .runtime/wordpress/wp-content/plugins/woocommerce/includes
+        - .runtime/wordpress/wp-content/plugins/woocommerce/src
+    tmpDir: /private/tmp/wmos-phpstan

@@ -1,0 +1,4015 @@
+# Copyright (C) 2026 WooCommerce Marketing OS contributors
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Marketing OS 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/ildrm/woocommerce-marketing/issues\n"
+"POT-Creation-Date: 2026-10-04 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: woocommerce-marketing-os\n"
+"X-Generator: WMOS source tokenizer (tools/generate-translations.py)\n"
+
+#: assets/admin.js:106
+msgid " · "
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:21
+msgid "A bounded stable experiment unit is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:135
+msgid "A campaign and stable cost operation key are required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:126
+msgid "A contact is required for this channel."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:57
+msgid "A durable event is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:129
+msgid "A future schedule instant is required."
+msgstr ""
+
+#: assets/admin.js:258
+msgid "A manual message uses the same verified destination, consent, suppression and retry policy as campaign delivery."
+msgstr ""
+
+#: assets/admin.js:234
+msgid "A merge requires verified ownership evidence, withdraws existing choices and preserves financial history on its original contact. Review both subjects first."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:304
+msgid "A paid canonical order and independent affiliate are required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:381
+msgid "A payout must share one beneficiary and currency exponent."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:26
+msgid "A running published experiment is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:180
+msgid "A split can have only one synchronization join."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:450
+msgid "A typed marketing definition is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:282
+msgid "A valid email address is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:126
+msgid "A valid future schedule instant is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:352
+msgid "A valid Idempotency-Key header is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:127
+msgid "A verified channel identity is required."
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Accessible report data"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:203
+msgid "Account ownership changed; manual review required."
+msgstr ""
+
+#: assets/admin.js:324 assets/admin.js:325 assets/admin.js:78
+msgid "Action"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "action"
+msgstr ""
+
+#: assets/admin.js:78
+msgid "Action configuration"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:307
+msgid "Action handler unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:80
+msgid "Action is missing required configuration."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:69
+msgid "Action is not registered."
+msgstr ""
+
+#: src/Platform/Lifecycle.php:20
+msgid "Activate Marketing OS separately for each site. Network-wide activation is not supported."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:731
+msgid "Active contact and published program required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:112
+msgid "Active profile is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Personalization.php:24
+msgid "Active published personalization definition is required."
+msgstr ""
+
+#: assets/admin.js:318
+msgid "Actual cost in minor units"
+msgstr ""
+
+#: assets/admin.js:246 assets/admin.js:248
+msgid "Adapter"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Add audience rule"
+msgstr ""
+
+#: assets/admin.js:59
+msgid "Add condition"
+msgstr ""
+
+#: assets/admin.js:85
+msgid "Add connection"
+msgstr ""
+
+#: assets/admin.js:59
+msgid "Add nested group"
+msgstr ""
+
+#: assets/admin.js:83
+msgid "Add node"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:100
+msgid "Adjustment cannot consume reserved or unavailable points."
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Adjustment reason"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:92
+msgid "Adjustment requires nonzero points and a reason."
+msgstr ""
+
+#: assets/admin.js:231 assets/admin.js:335
+msgid "ads"
+msgstr ""
+
+#: assets/admin.js:42
+msgid "Advanced configuration (JSON)"
+msgstr ""
+
+#: assets/admin.js:282
+msgid "Affiliate commissions"
+msgstr ""
+
+#: assets/admin.js:108 assets/admin.js:53 assets/admin.js:57
+msgid "all"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "All conditions (AND)"
+msgstr ""
+
+#: assets/admin.js:144
+msgid "All definition fields"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:50
+msgid "Allocation requires a bounded set of weights."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:60
+msgid "Allocation weight total must be 1..1000000."
+msgstr ""
+
+#: src/Integration/Tracking.php:227
+msgid "Allow personalized shopping reminders"
+msgstr ""
+
+#: src/Integration/Tracking.php:227
+msgid "Allow purchase and engagement profiling"
+msgstr ""
+
+#: src/Integration/Tracking.php:227
+msgid "Allow store analytics"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:24
+msgid "Amount exceeds currency precision."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Platform/Plugin.php:168
+msgid "An active contact is required for this action."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:361
+msgid "An If-Match revision header is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:168
+msgid "An order-bound redemption requires a paid canonical order."
+msgstr ""
+
+#: assets/admin.js:231
+msgid "analytics"
+msgstr ""
+
+#: assets/admin.js:309 assets/admin.js:352
+msgid "Analytics and attribution"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:180
+msgid "Analytics consent required."
+msgstr ""
+
+#: assets/admin.js:57
+msgid "any"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "Any condition (OR)"
+msgstr ""
+
+#: assets/admin.js:282
+msgid "Approve"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Approved commission UUIDs (comma separated)"
+msgstr ""
+
+#: assets/admin.js:115
+msgid "Approved template components"
+msgstr ""
+
+#: assets/admin.js:113
+msgid "Approved template name"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:455
+msgid "Approved WhatsApp template and language required."
+msgstr ""
+
+#: assets/admin.js:10
+msgid "Assets"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:94
+msgid "Assignment not found."
+msgstr ""
+
+#: assets/admin.js:119
+msgid "Assignment unit"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Facts.php:22
+msgid "At most one hundred profiles per fact batch."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:184
+msgid "At most twenty events per request."
+msgstr ""
+
+#: assets/admin.js:324
+msgid "Attempts"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:72
+msgid "Attributes must be named scalar values."
+msgstr ""
+
+#: assets/builders.js:9
+msgid "attributes.birthday_day"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "attributes.birthday_month"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "attributes.lifecycle"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "attributes.locale"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "attributes.region"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:226
+msgid "Attribution campaign dimensions exceed the configured safe budget."
+msgstr ""
+
+#: assets/admin.js:309
+msgid "Attribution model"
+msgstr ""
+
+#: assets/admin.js:108
+msgid "Audience"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:171
+msgid "Automation contains unreachable nodes."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:218 src/Application/Automation.php:570
+msgid "Automation is paused."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:157
+msgid "Automation loops are not permitted."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:100 src/Application/Automation.php:205 src/Application/Automation.php:562 src/Application/Automation.php:66
+msgid "Automation module is disabled."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:573
+msgid "Automation policy changed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:16
+msgid "Automation requires 2..200 nodes and at most 400 edges."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:109
+msgid "Automation requires exactly one trigger."
+msgstr ""
+
+#: assets/admin.js:8
+msgid "Automations"
+msgstr ""
+
+#: assets/admin.js:187 assets/admin.js:195 assets/admin.js:204 assets/admin.js:335
+msgid "automations"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Average order in minor units"
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Award points"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "banner"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "bestsellers"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:276
+msgid "Bounded JSON body required."
+msgstr ""
+
+#: assets/builders.js:11
+msgid "branch"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:99
+msgid "Branch outcome is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:95
+msgid "Branch requires bounded cases."
+msgstr ""
+
+#: assets/admin.js:342
+msgid "Build a consent-aware lifecycle"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:62
+msgid "Calendar delay requires days, local time and IANA timezone."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:316
+msgid "Callback URL mismatch."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:411
+msgid "Campaign channel is unsupported by this provider."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:194
+msgid "Campaign channel planner is not configured."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:383
+msgid "Campaign channel, provider, content and audience are required."
+msgstr ""
+
+#: assets/admin.js:290
+msgid "Campaign dimensions"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:184
+msgid "Campaign is paused."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:180 src/Application/Definitions.php:25
+msgid "Campaign module is disabled."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:218
+msgid "Campaign must explicitly select an audience."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:52
+msgid "Campaign not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:404
+msgid "Campaign provider must be active."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:207
+msgid "Campaign segment must have a published membership generation."
+msgstr ""
+
+#: assets/admin.js:131 assets/admin.js:290
+msgid "Campaign UUID (optional)"
+msgstr ""
+
+#: assets/admin.js:8
+msgid "Campaigns"
+msgstr ""
+
+#: assets/admin.js:187 assets/admin.js:195 assets/admin.js:197 assets/admin.js:335 assets/admin.js:343
+msgid "campaigns"
+msgstr ""
+
+#: assets/admin.js:355
+msgid "Campaigns, customer permission and measurable lifecycle execution in WooCommerce."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:343
+msgid "Canonical order is not payout eligible."
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Canonical paid order ID"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "category"
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:231 assets/admin.js:259 assets/admin.js:261
+msgid "Channel"
+msgstr ""
+
+#: assets/admin.js:336
+msgid "Channel attribution weights"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:458
+msgid "Channel text required or too long."
+msgstr ""
+
+#: assets/admin.js:244 assets/admin.js:352
+msgid "Channels and integrations"
+msgstr ""
+
+#: assets/admin.js:106
+msgid "Choose a configured connection"
+msgstr ""
+
+#: assets/admin.js:259
+msgid "Choose a connection"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:212
+msgid "Choose a supported IANA timezone."
+msgstr ""
+
+#: assets/admin.js:135
+msgid "Choose an existing marketing asset"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:390
+msgid "Choose exactly one explicit campaign audience."
+msgstr ""
+
+#: assets/admin.js:135
+msgid "Choose from Media Library"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Claim referral for contact"
+msgstr ""
+
+#: assets/admin.js:191
+msgid "Close editor"
+msgstr ""
+
+#: assets/admin.js:282
+msgid "Commission"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:313
+msgid "Commission base must equal canonical post-discount merchandise."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:300
+msgid "Commission base/currency mismatch."
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Commission basis in minor units"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:397
+msgid "Commission has no payable balance."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:354
+msgid "Commission has no remaining approved amount."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:339
+msgid "Commission is held, reversed or ineligible."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:323
+msgid "Commission key conflict."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:334 src/Application/Programs.php:378
+msgid "Commission not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:350
+msgid "Commission program unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:72
+msgid "Comparison needs an integer or timestamp/string."
+msgstr ""
+
+#: assets/admin.js:22
+msgid "Complete or correct the invalid editor field before submitting."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:234
+msgid "Concurrent or prior non-idempotent submission requires reconciliation."
+msgstr ""
+
+#: assets/builders.js:11
+msgid "condition"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "Condition group"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Secrets.php:57
+msgid "Configure a base64-encoded 32-byte WMOS_ENCRYPTION_KEY and PHP sodium before storing personal data or credentials."
+msgstr ""
+
+#: assets/admin.js:343
+msgid "Configure a channel"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:736
+msgid "Configure a financial retention policy before running programs."
+msgstr ""
+
+#: assets/admin.js:342
+msgid "Configure a protected provider connection, record verified customer permission, publish a segment and automation, then measure canonical WooCommerce conversions."
+msgstr ""
+
+#: assets/admin.js:244
+msgid "Configure a server encryption key before entering credentials. Secrets are write-only. Provider account policy and template restrictions still apply."
+msgstr ""
+
+#: assets/admin.js:246
+msgid "Configured"
+msgstr ""
+
+#: src/Integration/Preferences.php:49
+msgid "Confirm email subscription"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Confirm only a payment already settled externally. Recording this reference does not transfer money."
+msgstr ""
+
+#: src/Rest/Api.php:117
+msgid "Confirm subscription"
+msgstr ""
+
+#: src/Application/Messaging.php:305
+msgid "Confirm the subscription you requested by opening this link:"
+msgstr ""
+
+#: src/Application/Messaging.php:305 src/Rest/Api.php:117
+msgid "Confirm your subscription"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:297
+msgid "Confirmation challenge mismatch."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:302
+msgid "Confirmation destination evidence mismatch."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:169
+msgid "Confirmation destination evidence unavailable. Request a new challenge."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:173
+msgid "Confirmation destination no longer belongs to this contact."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:144
+msgid "Confirmation evidence exceeds limits."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:160
+msgid "Confirmation expired or invalid."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:123
+msgid "Confirmation sender is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:306
+msgid "Confirmation transport failed."
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Confirmed external payment reference"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:364
+msgid "Confirmed payout reference and 1..100 commissions required."
+msgstr ""
+
+#: assets/admin.js:246
+msgid "Connection"
+msgstr ""
+
+#: assets/admin.js:248
+msgid "Connection name"
+msgstr ""
+
+#: assets/admin.js:247
+msgid "Connection saved; credential remains server-side."
+msgstr ""
+
+#: assets/admin.js:84
+msgid "Connections"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:141
+msgid "Consent changed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:233
+msgid "Consent history limit requires review."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:36 src/Application/Consent.php:57
+msgid "Consent operation key conflict."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:123
+msgid "Consent or suppression blocks this operation."
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Consent policy version"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:25
+msgid "Consent requires bounded source, policy and evidence."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:68
+msgid "Contact attributes exceed limits."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:43
+msgid "Contact does not satisfy promotion eligibility."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:84 src/Application/Programs.php:768
+msgid "Contact is not active."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:29 src/Application/Contacts.php:35
+msgid "Contact is unavailable for enrollment."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:30 src/Application/Contacts.php:101 src/Application/Promotions.php:36 src/Infrastructure/Events.php:43
+msgid "Contact is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:107 src/Application/Consent.php:217 src/Application/Contacts.php:50 src/Application/Privacy.php:262 src/Application/Programs.php:264 src/Application/Programs.php:728
+msgid "Contact not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:152
+msgid "Contact revision changed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:120 src/Application/Consent.php:128 src/Application/Consent.php:164
+msgid "Contact unavailable."
+msgstr ""
+
+#: assets/admin.js:204 assets/admin.js:259 assets/admin.js:277
+msgid "Contact UUID"
+msgstr ""
+
+#: assets/admin.js:205
+msgid "Contact UUID for coupon"
+msgstr ""
+
+#: assets/builders.js:10
+msgid "contains"
+msgstr ""
+
+#: assets/admin.js:11
+msgid "Content and SEO briefs"
+msgstr ""
+
+#: assets/admin.js:137
+msgid "Content or brief"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:123
+msgid "Conversion not found."
+msgstr ""
+
+#: assets/admin.js:318
+msgid "Cost currency"
+msgstr ""
+
+#: assets/admin.js:129
+msgid "Cost in minor units"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:145
+msgid "Cost operation key was reused with a different amount."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:149
+msgid "Could not complete job."
+msgstr ""
+
+#: assets/admin.js:78
+msgid "coupon"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:72
+msgid "Coupon currency must match the store and amount must be positive."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:52
+msgid "Coupon issuance is already running."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:58
+msgid "Coupon ownership conflict."
+msgstr ""
+
+#: assets/admin.js:343
+msgid "Create a campaign"
+msgstr ""
+
+#: assets/admin.js:32
+msgid "Create a definition to start. Published versions preserve their execution history."
+msgstr ""
+
+#: assets/admin.js:225
+msgid "Create contact"
+msgstr ""
+
+#: assets/admin.js:188
+msgid "Create new"
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Create referral"
+msgstr ""
+
+#: assets/admin.js:290
+msgid "Create tracking link"
+msgstr ""
+
+#: assets/admin.js:190
+msgid "Create your first definition"
+msgstr ""
+
+#: assets/admin.js:291
+msgid "Created tracking placement"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "created_at"
+msgstr ""
+
+#: assets/admin.js:246 assets/admin.js:248
+msgid "Credential"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:94
+msgid "Credential token required; only token and webhook_secret are accepted."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:38
+msgid "Currencies or exponents differ."
+msgstr ""
+
+#: assets/admin.js:130 assets/admin.js:282 assets/admin.js:311
+msgid "Currency"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "currency"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:257
+msgid "Current account analytics consent required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:144
+msgid "Current consent policy must be displayed and accepted."
+msgstr ""
+
+#: assets/admin.js:309
+msgid "custom"
+msgstr ""
+
+#: assets/admin.js:336
+msgid "Custom attribution weights"
+msgstr ""
+
+#: assets/admin.js:336
+msgid "Custom weights saved for subsequent reconciliation. Existing allocations remain pinned."
+msgstr ""
+
+#: assets/admin.js:224 assets/admin.js:352
+msgid "Customers and consent"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:80
+msgid "Daily recipient cap must be 1 through 100."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Database.php:176
+msgid "Database is busy. Please retry."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:68
+msgid "Date criteria require valid timestamps."
+msgstr ""
+
+#: assets/admin.js:336
+msgid "Default attribution weight"
+msgstr ""
+
+#: assets/admin.js:191
+msgid "Definition editor"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:250
+msgid "Definition is too large."
+msgstr ""
+
+#: assets/admin.js:337
+msgid "Definition JSON"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:236 src/Application/Definitions.php:244 src/Rest/Api.php:401
+msgid "Definition not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:71
+msgid "Definition revision or state does not permit publication."
+msgstr ""
+
+#: assets/admin.js:318
+msgid "Definition UUID"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "delay"
+msgstr ""
+
+#: assets/admin.js:76
+msgid "Delay (seconds)"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:282
+msgid "Delay has not elapsed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:309
+msgid "Deliverables must be a bounded list."
+msgstr ""
+
+#: assets/admin.js:261
+msgid "Delivery intents"
+msgstr ""
+
+#: assets/admin.js:293
+msgid "Destination"
+msgstr ""
+
+#: assets/admin.js:124
+msgid "Discount amount"
+msgstr ""
+
+#: assets/admin.js:357
+msgid "Dismiss result"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:251
+msgid "Dispatch worker lease lost before network attempt."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:136
+msgid "Distinct contacts, reason and recorded ownership proof are required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:116
+msgid "Double opt-in requires an email policy and bounded evidence."
+msgstr ""
+
+#: assets/admin.js:300
+msgid "Download QR SVG"
+msgstr ""
+
+#: assets/admin.js:183
+msgid "Draft saved. Publish a version before execution."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:28
+msgid "Duplicate or invalid adapter key."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:122
+msgid "Duplicate outcome; use an explicit split."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:367
+msgid "Duplicate payout item."
+msgstr ""
+
+#: assets/admin.js:324
+msgid "Durable jobs"
+msgstr ""
+
+#: assets/admin.js:101
+msgid "dynamic"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:69
+msgid "Earn points must be positive."
+msgstr ""
+
+#: assets/admin.js:248
+msgid "Edit connection"
+msgstr ""
+
+#: assets/admin.js:191
+msgid "Edit draft"
+msgstr ""
+
+#: assets/admin.js:94
+msgid "Edit node"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:59
+msgid "Elapsed delay must be 1..31536000 seconds."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:154
+msgid "Eligible point lots cannot satisfy this reservation."
+msgstr ""
+
+#: assets/admin.js:102 assets/admin.js:105 assets/admin.js:110 assets/admin.js:213 assets/admin.js:216 assets/admin.js:225 assets/admin.js:227 assets/admin.js:231 assets/admin.js:232 assets/admin.js:233 assets/admin.js:256 assets/admin.js:259 assets/admin.js:335
+msgid "email"
+msgstr ""
+
+#: assets/admin.js:227
+msgid "Email"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:22
+msgid "Email belongs to another verified account."
+msgstr ""
+
+#: assets/admin.js:225
+msgid "Email for new profile"
+msgstr ""
+
+#: src/Integration/WooCommerce.php:62 src/Integration/WooCommerce.php:68
+msgid "Email me offers and news. Confirm by email; unsubscribe at any time."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:54
+msgid "Email sender required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:450
+msgid "Email subject and body required."
+msgstr ""
+
+#: assets/admin.js:195
+msgid "Enable"
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Enable canonical commerce capture under configured policy"
+msgstr ""
+
+#: src/Platform/Admin.php:38
+msgid "Enable JavaScript to use the marketing builders."
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Enable purpose-gated behavioral tracking"
+msgstr ""
+
+#: assets/admin.js:249
+msgid "Enable this connection"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:101
+msgid "Enable this marketing module before starting execution."
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Enabled execution modules"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:108
+msgid "Enabled published automation is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Secrets.php:43
+msgid "Encrypted record authentication failed."
+msgstr ""
+
+#: assets/admin.js:204
+msgid "Enroll contact"
+msgstr ""
+
+#: assets/admin.js:50
+msgid "Enter a JSON array, for example [1, 2]."
+msgstr ""
+
+#: assets/admin.js:39
+msgid "Enter a JSON object or array."
+msgstr ""
+
+#: assets/builders.js:76
+msgid "Enter an array of 1–50 values."
+msgstr ""
+
+#: assets/admin.js:336
+msgid "Enter an object of channel names and nonnegative integer weights, for example {\"email\": 3, \"direct\": 1}. Attribution remains correlation."
+msgstr ""
+
+#: assets/admin.js:184 assets/admin.js:259 assets/admin.js:290 assets/admin.js:318 assets/admin.js:334 assets/admin.js:336 assets/admin.js:337 assets/admin.js:40 assets/admin.js:49
+msgid "Enter valid JSON."
+msgstr ""
+
+#: assets/admin.js:280
+msgid "Entry"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:116
+msgid "Entry event is unavailable."
+msgstr ""
+
+#: assets/builders.js:10
+msgid "eq"
+msgstr ""
+
+#: assets/admin.js:235
+msgid "Erase optional marketing data for this verified subject request? Commerce records remain under WooCommerce."
+msgstr ""
+
+#: assets/admin.js:235
+msgid "Erase personal data"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:198
+msgid "Erased or subsequently changed contacts cannot be restored."
+msgstr ""
+
+#: assets/admin.js:101
+msgid "Evaluation mode"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Events.php:19
+msgid "Event consumer already registered."
+msgstr ""
+
+#: assets/admin.js:10
+msgid "Event marketing"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Events.php:30
+msgid "Event properties exceed the resource limit."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:203
+msgid "Every branch must reach its declared join before exiting."
+msgstr ""
+
+#: assets/builders.js:70
+msgid "Every connection must reference existing nodes."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:129
+msgid "Every non-exit needs a successor."
+msgstr ""
+
+#: assets/admin.js:231
+msgid "Evidence or request reference"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:566
+msgid "Execution lease or run epoch changed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:452
+msgid "Execution outcome has no configured edge."
+msgstr ""
+
+#: assets/builders.js:10
+msgid "exists"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "exit"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Json.php:18
+msgid "Expected a JSON object or array."
+msgstr ""
+
+#: assets/builders.js:11
+msgid "experiment"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:45
+msgid "Experiment identity key is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:105
+msgid "Experiment not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:35
+msgid "Experiment profile is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:403
+msgid "Experiment reconciliation requires a configured queue for continuation."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:434
+msgid "Experiment requires 2..10 variants and a stable unit."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:317
+msgid "Experiment service unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:30
+msgid "Experiment version does not belong to definition."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:89
+msgid "Experiment weights do not cover assignment."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:446
+msgid "Experiment weights must sum to 10000."
+msgstr ""
+
+#: assets/admin.js:9
+msgid "Experiments"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Privacy.php:28
+msgid "Export cursors must be nonnegative integers."
+msgstr ""
+
+#: assets/admin.js:203
+msgid "Export definition"
+msgstr ""
+
+#: assets/admin.js:235
+msgid "Export personal data"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.cart_count"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.cart_total_minor"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.category_ids"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.click_count"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.consent"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.coupon_codes"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.loyalty_points"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.open_count"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.product_ids"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.referral_count"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.rfm"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "facts.segment_uuids"
+msgstr ""
+
+#: assets/admin.js:61
+msgid "Field"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "filter"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:775
+msgid "Financial integer overflow."
+msgstr ""
+
+#: assets/admin.js:125
+msgid "Financial retention (days)"
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Financial retention (days; 0 means unconfigured)"
+msgstr ""
+
+#: assets/admin.js:309
+msgid "first_touch"
+msgstr ""
+
+#: assets/admin.js:309
+msgid "From"
+msgstr ""
+
+#: assets/admin.js:84
+msgid "From node"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Full accessible report and definition"
+msgstr ""
+
+#: assets/admin.js:159
+msgid "GET"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "goal"
+msgstr ""
+
+#: assets/builders.js:10
+msgid "gt"
+msgstr ""
+
+#: assets/builders.js:10
+msgid "gte"
+msgstr ""
+
+#: assets/admin.js:300
+msgid "Hide QR"
+msgstr ""
+
+#: assets/admin.js:249
+msgid "I reviewed the provider policy and permitted data transfer"
+msgstr ""
+
+#: assets/admin.js:232
+msgid "I verified this destination using the referenced evidence"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:326
+msgid "Idempotency key was already used for different input."
+msgstr ""
+
+#: assets/admin.js:20
+msgid "Idempotency-Key"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:270
+msgid "Idempotent submission reconciliation."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:107
+msgid "Identity is already linked to another contact; no automatic merge was performed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:159
+msgid "Identity limit requires review."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:208
+msgid "Identity provenance changed; manual review required."
+msgstr ""
+
+#: assets/admin.js:232
+msgid "Identity type"
+msgstr ""
+
+#: assets/admin.js:232
+msgid "Identity value"
+msgstr ""
+
+#: assets/admin.js:21
+msgid "If-Match"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:114
+msgid "Illegal definition state transition."
+msgstr ""
+
+#: assets/admin.js:280
+msgid "Immutable points ledger"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Database.php:93
+msgid "Immutable record fields cannot be changed."
+msgstr ""
+
+#: assets/admin.js:337
+msgid "Import a versioned definition"
+msgstr ""
+
+#: assets/admin.js:337
+msgid "Imported as a draft. Review before publishing."
+msgstr ""
+
+#: assets/builders.js:10
+msgid "in"
+msgstr ""
+
+#: assets/admin.js:11
+msgid "Influencers"
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Inspect balance"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:135
+msgid "Insufficient available points."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:44
+msgid "Invalid action amount."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:311
+msgid "Invalid action output."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:47
+msgid "Invalid action text."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:37
+msgid "Invalid automation action registry."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:115
+msgid "Invalid automation edge."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:387
+msgid "Invalid bounded campaign audience."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:230
+msgid "Invalid bounded message content."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:195
+msgid "Invalid browser event."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:199
+msgid "Invalid browser properties."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:28
+msgid "Invalid callback parameters."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:69
+msgid "Invalid callback URL."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:417
+msgid "Invalid campaign budget."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:423
+msgid "Invalid campaign goals."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:394
+msgid "Invalid campaign recipient UUID."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:155
+msgid "Invalid confirmation token."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:229
+msgid "Invalid consent purpose/channel."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:140
+msgid "Invalid consent purposes."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:286
+msgid "Invalid content field."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:139
+msgid "Invalid cost timestamp."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:98
+msgid "Invalid credential."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:289
+msgid "Invalid currency."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:108
+msgid "Invalid custom attribution channel weight."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:104
+msgid "Invalid custom attribution weights."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:20
+msgid "Invalid decimal monetary value."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:47
+msgid "Invalid definition kind or name."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:326
+msgid "Invalid deliverable asset UUID."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:323
+msgid "Invalid deliverable due date."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:317
+msgid "Invalid deliverable quantity."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:329
+msgid "Invalid deliverable status."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:320
+msgid "Invalid deliverable text."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:44
+msgid "Invalid dimension value."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Secrets.php:39
+msgid "Invalid encrypted record."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:336
+msgid "Invalid event registration descriptor."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Events.php:27
+msgid "Invalid event type or source."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:80
+msgid "Invalid experiment bucket."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:123
+msgid "Invalid experiment counts."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:440
+msgid "Invalid experiment variant."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:19
+msgid "Invalid handler identity."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:95
+msgid "Invalid identity namespace."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:30
+msgid "Invalid job identity."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:441
+msgid "Invalid message content."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:234
+msgid "Invalid message text field."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:238
+msgid "Invalid message variable mapping."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:13
+msgid "Invalid monetary value."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:41
+msgid "Invalid node reference UUID."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:206
+msgid "Invalid numeric browser property."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:277
+msgid "Invalid numeric definition field."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:22
+msgid "Invalid or duplicate automation node."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:373 src/Rest/Api.php:377
+msgid "Invalid pagination cursor."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:141
+msgid "Invalid parent workflow context."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:303
+msgid "Invalid partner channel handle."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Personalization.php:83
+msgid "Invalid personalization content."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Personalization.php:87
+msgid "Invalid personalization link."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Personalization.php:79
+msgid "Invalid personalization surface or fields."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:48
+msgid "Invalid placement UUID."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:120
+msgid "Invalid points reservation."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:355
+msgid "Invalid program amount or rate."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:371
+msgid "Invalid promotion object references."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:367
+msgid "Invalid promotion percentage."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:784
+msgid "Invalid proportional arithmetic."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:51
+msgid "Invalid provider configuration."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Contracts/ProviderOutcome.php:12
+msgid "Invalid provider outcome."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Personalization.php:95
+msgid "Invalid public fallback."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Recommendations.php:134
+msgid "Invalid recommendation product/category references."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:271
+msgid "Invalid referenced UUID."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:38
+msgid "Invalid rule child."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:28
+msgid "Invalid rule group."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:274
+msgid "Invalid schedule."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:146
+msgid "Invalid SQL alias."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Consent.php:73
+msgid "Invalid suppression reason."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:80
+msgid "Invalid tag."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:102
+msgid "Invalid Telegram bot token."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:248
+msgid "Invalid template components."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:259
+msgid "Invalid template parameter text."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:256
+msgid "Invalid template parameter."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:292
+msgid "Invalid timezone."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:40
+msgid "Invalid tracking dimensions."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:118
+msgid "Invalid trigger/exit connection."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:295
+msgid "Invalid typed asset metadata."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:427
+msgid "Invalid typed campaign goal."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:313
+msgid "Invalid typed deliverable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:252
+msgid "Invalid typed template component."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:394 src/Application/Messaging.php:398
+msgid "Invalid unsubscribe token."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:22
+msgid "Invalid webhook account."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:49
+msgid "Invalid webhook secret."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:34 src/Infrastructure/Providers/WebhookVerifier.php:57 src/Infrastructure/Providers/WebhookVerifier.php:63 src/Infrastructure/Providers/WebhookVerifier.php:67 src/Infrastructure/Providers/WebhookVerifier.php:72
+msgid "Invalid webhook signature."
+msgstr ""
+
+#: assets/admin.js:205
+msgid "Issue native coupon"
+msgstr ""
+
+#: assets/admin.js:324
+msgid "Job"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:22
+msgid "Job handler already registered."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:123
+msgid "Job handler is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:39 src/Infrastructure/Queue.php:50
+msgid "Job idempotency key was reused with a different payload."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:74 src/Infrastructure/Queue.php:85
+msgid "Job not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:33
+msgid "Job payload exceeds the resource limit."
+msgstr ""
+
+#: assets/builders.js:11
+msgid "join"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:221
+msgid "Join cannot receive a path outside its declared split."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:496
+msgid "Join has no split lineage."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:470
+msgid "Join is outside its split branch."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:150
+msgid "Join must reference its split."
+msgstr ""
+
+#: assets/admin.js:42
+msgid "JSON is validated on save and again before publication."
+msgstr ""
+
+#: assets/admin.js:280 assets/admin.js:324
+msgid "Kind"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "landing"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Privacy.php:248
+msgid "Large merge history requires bounded subject review."
+msgstr ""
+
+#: assets/admin.js:309
+msgid "last_non_direct"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "last_order_at"
+msgstr ""
+
+#: assets/admin.js:306 assets/admin.js:309
+msgid "last_touch"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "latest"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "leaf"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:747
+msgid "Ledger operation key conflict."
+msgstr ""
+
+#: assets/admin.js:309
+msgid "linear"
+msgstr ""
+
+#: assets/admin.js:293
+msgid "Link"
+msgstr ""
+
+#: assets/admin.js:352
+msgid "Links and QR"
+msgstr ""
+
+#: src/Platform/Admin.php:36
+msgid "Loading marketing…"
+msgstr ""
+
+#: assets/admin.js:127
+msgid "Location descriptor"
+msgstr ""
+
+#: assets/admin.js:9
+msgid "Loyalty and partner programs"
+msgstr ""
+
+#: assets/builders.js:10
+msgid "lt"
+msgstr ""
+
+#: assets/builders.js:10
+msgid "lte"
+msgstr ""
+
+#: assets/admin.js:298
+msgid "M"
+msgstr ""
+
+#: assets/admin.js:61
+msgid "Make group"
+msgstr ""
+
+#: assets/admin.js:204
+msgid "Manual enrollment"
+msgstr ""
+
+#: src/Platform/Admin.php:23
+msgid "Marketing"
+msgstr ""
+
+#: assets/admin.js:356
+msgid "Marketing navigation"
+msgstr ""
+
+#: assets/admin.js:355 src/Platform/Admin.php:22
+msgid "Marketing operating system"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Platform/Plugin.php:32
+msgid "Marketing OS has not booted."
+msgstr ""
+
+#: src/Platform/Plugin.php:246
+msgid "Marketing OS needs a base64-encoded 32-byte WMOS_ENCRYPTION_KEY in wp-config.php or the server environment before storing contacts or provider credentials. Back up this key securely."
+msgstr ""
+
+#: woocommerce-marketing-os.php:29 woocommerce-marketing-os.php:37
+msgid "Marketing OS requires PHP 8.3+, sodium, and the complete release ZIP with its Composer autoloader."
+msgstr ""
+
+#: assets/admin.js:342
+msgid "Marketing overview"
+msgstr ""
+
+#: assets/admin.js:227
+msgid "Marketing profiles"
+msgstr ""
+
+#: assets/admin.js:224
+msgid "Marketing profiles supplement WooCommerce customers. A purchase or entered email never grants marketing permission."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:170
+msgid "Marketing runtime is paused."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Schema.php:132
+msgid "Marketing schema installation failed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Schema.php:136
+msgid "Marketing tables require InnoDB transaction support."
+msgstr ""
+
+#: assets/admin.js:357
+msgid "Marketing workspace"
+msgstr ""
+
+#: assets/admin.js:101
+msgid "materialized"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Measured results and basis"
+msgstr ""
+
+#: assets/admin.js:335
+msgid "measurement"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:58
+msgid "Membership rule needs 1..50 values."
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Merge into reviewed contact"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:185
+msgid "Merge not found."
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Merge operation UUID for reversal"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Merge or reversal reason"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Merge these verified subjects and withdraw existing permission?"
+msgstr ""
+
+#: assets/admin.js:78
+msgid "message"
+msgstr ""
+
+#: assets/admin.js:261
+msgid "Message"
+msgstr ""
+
+#: assets/admin.js:259
+msgid "Message content"
+msgstr ""
+
+#: assets/admin.js:258
+msgid "Message delivery"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:445
+msgid "Message fields must be strings."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:134
+msgid "Message idempotency key conflict."
+msgstr ""
+
+#: assets/admin.js:259
+msgid "Message intent queued."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:270
+msgid "Message media requires bounded HTTPS URLs."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:173 src/Application/Messaging.php:409
+msgid "Message not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:148
+msgid "Message owner not found."
+msgstr ""
+
+#: assets/admin.js:116
+msgid "Message text"
+msgstr ""
+
+#: assets/admin.js:78
+msgid "Message uses provider_uuid, channel, purpose and content; every send checks current consent."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:242
+msgid "Message variables must be bounded scalars."
+msgstr ""
+
+#: assets/admin.js:352
+msgid "Messages"
+msgstr ""
+
+#: assets/admin.js:248
+msgid "meta"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:60
+msgid "Meta API version, phone-number ID and approved template catalog required."
+msgstr ""
+
+#: assets/admin.js:282
+msgid "Minor currency units"
+msgstr ""
+
+#: assets/admin.js:311 assets/admin.js:318
+msgid "Minor unit exponent"
+msgstr ""
+
+#: assets/admin.js:246
+msgid "Missing"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:41
+msgid "Monetary arithmetic overflow."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:30
+msgid "Monetary value exceeds integer range."
+msgstr ""
+
+#: assets/admin.js:81
+msgid "Move down"
+msgstr ""
+
+#: assets/admin.js:80
+msgid "Move up"
+msgstr ""
+
+#: assets/admin.js:190 assets/admin.js:192
+msgid "Name"
+msgstr ""
+
+#: assets/builders.js:10
+msgid "neq"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Net revenue in minor units"
+msgstr ""
+
+#: assets/admin.js:244 assets/admin.js:248
+msgid "New connection"
+msgstr ""
+
+#: assets/admin.js:191
+msgid "New definition"
+msgstr ""
+
+#: assets/admin.js:164
+msgid "Next page"
+msgstr ""
+
+#: assets/admin.js:190
+msgid "No"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "No cost basis"
+msgstr ""
+
+#: assets/admin.js:32
+msgid "No records yet"
+msgstr ""
+
+#: assets/admin.js:74
+msgid "Node"
+msgstr ""
+
+#: assets/admin.js:79
+msgid "Node configuration"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:28
+msgid "Node configuration exceeds allowed size."
+msgstr ""
+
+#: assets/admin.js:74
+msgid "Node identifier"
+msgstr ""
+
+#: assets/builders.js:65
+msgid "Node identifiers must be unique."
+msgstr ""
+
+#: assets/builders.js:64
+msgid "Node identifiers must use letters, numbers, underscore or hyphen."
+msgstr ""
+
+#. REST formats the dynamic value into this translated validation message.
+#: src/Domain/Graph.php:140 src/Rest/Api.php:296
+#, php-format
+msgid "Node is missing a required outcome: %s"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:481
+msgid "Node must reference a published compatible definition."
+msgstr ""
+
+#: assets/admin.js:74
+msgid "Node type"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "not"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "Not"
+msgstr ""
+
+#: assets/admin.js:50
+msgid "Numbers use exact integer values; revenue is in minor currency units."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:65
+msgid "Numeric criteria require integer values."
+msgstr ""
+
+#: assets/admin.js:325
+msgid "Object"
+msgstr ""
+
+#: assets/admin.js:10
+msgid "Offline placements"
+msgstr ""
+
+#: assets/admin.js:248
+msgid "onesignal"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:63
+msgid "OneSignal App UUID required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:149
+msgid "Only active contacts can be merged."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:217
+msgid "Only reserved points can be released."
+msgstr ""
+
+#: assets/admin.js:177 assets/admin.js:222
+msgid "Operation completed."
+msgstr ""
+
+#: assets/admin.js:357
+msgid "Operation result"
+msgstr ""
+
+#: assets/admin.js:61
+msgid "Operator"
+msgstr ""
+
+#: assets/admin.js:281
+msgid "Order"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Order currency"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:62
+msgid "Order monetary scale was pinned by a concurrent observer."
+msgstr ""
+
+#: assets/builders.js:9
+msgid "order_count"
+msgstr ""
+
+#: assets/admin.js:261 assets/admin.js:84
+msgid "Outcome"
+msgstr ""
+
+#: assets/admin.js:352
+msgid "Overview"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Ownership verification reference"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Paid orders"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:243
+msgid "Parent workflow is paused."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:299
+msgid "Partner handles must be a bounded channel map."
+msgstr ""
+
+#: assets/admin.js:11
+msgid "Partners"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:202
+msgid "Path must exclude query strings."
+msgstr ""
+
+#: assets/admin.js:196
+msgid "Pause"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:393
+msgid "Payout contains ineligible or mixed currency commissions."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:65
+msgid "Percentage must be positive and at most 100%."
+msgstr ""
+
+#: assets/admin.js:11
+msgid "Personalization"
+msgstr ""
+
+#: assets/admin.js:102 assets/admin.js:11 assets/admin.js:187 assets/admin.js:201 assets/admin.js:231 assets/admin.js:335
+msgid "personalization"
+msgstr ""
+
+#: assets/admin.js:232
+msgid "phone"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:287
+msgid "Phone identity must be E.164."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "pinned"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:126
+msgid "Pinned automation version does not belong to definition."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:229
+msgid "Pinned node is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:75
+msgid "Pinned policy belongs to another program."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:73
+msgid "Pinned program version unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:27
+msgid "Pinned promotion policy is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:57
+msgid "Placement not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:196
+msgid "Point lot integrity failure."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:720
+msgid "Point lot integrity prevents this adjustment."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:597
+msgid "Point provenance unavailable."
+msgstr ""
+
+#: assets/admin.js:280 assets/admin.js:78
+msgid "points"
+msgstr ""
+
+#: assets/admin.js:277 assets/admin.js:280
+msgid "Points"
+msgstr ""
+
+#: assets/admin.js:124
+msgid "Points per order"
+msgstr ""
+
+#: assets/admin.js:231
+msgid "Policy version"
+msgstr ""
+
+#: assets/admin.js:309
+msgid "position_based"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Platform/Plugin.php:110
+msgid "Positive integer points required."
+msgstr ""
+
+#: assets/admin.js:177 assets/admin.js:199 assets/admin.js:201 assets/admin.js:202 assets/admin.js:203 assets/admin.js:222 assets/admin.js:259 assets/admin.js:276 assets/admin.js:278 assets/admin.js:290 assets/admin.js:318 assets/admin.js:324 assets/admin.js:337
+msgid "POST"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:136
+msgid "Preference form expired."
+msgstr ""
+
+#: src/Integration/Tracking.php:222
+msgid "Preferences could not be saved."
+msgstr ""
+
+#: src/Integration/Tracking.php:222
+msgid "Preferences saved."
+msgstr ""
+
+#: src/Rest/Api.php:117
+msgid "Press Confirm to record the subscription choice you requested. Opening this link does not change your permission."
+msgstr ""
+
+#: src/Rest/Api.php:148
+msgid "Press Unsubscribe to withdraw the purpose and channel permission carried by this link. Opening the link does not change your choice."
+msgstr ""
+
+#: assets/admin.js:199
+msgid "Preview matching contacts"
+msgstr ""
+
+#: assets/admin.js:201
+msgid "Preview public fallback"
+msgstr ""
+
+#: assets/admin.js:164
+msgid "Previous page"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:187
+msgid "Prior submission outcome requires reconciliation."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Privacy.php:136 src/Application/Privacy.php:76
+msgid "Privacy job not found."
+msgstr ""
+
+#: src/Integration/Tracking.php:227
+msgid "Privacy preferences"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Privacy.php:97
+msgid "Privacy subject unavailable."
+msgstr ""
+
+#: assets/admin.js:325
+msgid "Privileged action audit"
+msgstr ""
+
+#: src/Application/Personalization.php:57
+msgid "Product recommendations"
+msgstr ""
+
+#: assets/builders.js:31
+msgid "Products"
+msgstr ""
+
+#: assets/admin.js:119
+msgid "profile"
+msgstr ""
+
+#: assets/admin.js:228
+msgid "Profile attributes"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:579
+msgid "Profile privacy epoch changed."
+msgstr ""
+
+#: assets/admin.js:229
+msgid "Profile saved."
+msgstr ""
+
+#: assets/admin.js:231
+msgid "profiling"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:729
+msgid "Program not found."
+msgstr ""
+
+#: assets/admin.js:277
+msgid "Program operations"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:351
+msgid "Program type and explicit financial retention policy are required."
+msgstr ""
+
+#: assets/admin.js:277 assets/admin.js:335 assets/admin.js:354
+msgid "programs"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:726
+msgid "Programs module is disabled."
+msgstr ""
+
+#: assets/admin.js:124
+msgid "promotion"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:364
+msgid "Promotion discount type and nonnegative amount are required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:90
+msgid "Promotion is outside its time window."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:21
+msgid "Promotion not found."
+msgstr ""
+
+#: assets/admin.js:9
+msgid "Promotions"
+msgstr ""
+
+#: assets/admin.js:205 assets/admin.js:335
+msgid "promotions"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:19
+msgid "Promotions module is disabled."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:789 src/Application/Programs.php:795 src/Application/Programs.php:818
+msgid "Proportional arithmetic overflow."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:272
+msgid "Provider acceptance unknown; blind retry prohibited."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:87
+msgid "Provider adapter cannot change."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:407
+msgid "Provider capability reader is not configured."
+msgstr ""
+
+#: assets/admin.js:106 assets/admin.js:259
+msgid "Provider connection"
+msgstr ""
+
+#: assets/admin.js:246
+msgid "Provider connections"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:255
+msgid "Provider disabled before submission."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:180
+msgid "Provider disabled."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:47
+msgid "Provider name required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:116 src/Application/Messaging.php:313 src/Application/Messaging.php:84 src/Rest/Api.php:135
+msgid "Provider not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:192
+msgid "Provider retry limit reached."
+msgstr ""
+
+#: src/Application/Messaging.php:265
+msgid "Provider retry required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:178 src/Application/Messaging.php:340
+msgid "Provider unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:118
+msgid "Provider/channel is unavailable."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Public fallback"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Personalization.php:99
+msgid "Public fallback cannot use personal evidence."
+msgstr ""
+
+#: assets/admin.js:227
+msgid "Public identifier"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:117
+msgid "Publish a version before activation."
+msgstr ""
+
+#: assets/admin.js:194
+msgid "Publish version"
+msgstr ""
+
+#: assets/admin.js:190
+msgid "Published"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:23
+msgid "Published active promotion required."
+msgstr ""
+
+#: assets/admin.js:277
+msgid "Published program UUID"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Segments.php:71
+msgid "Published segment is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:172
+msgid "Published version is unavailable."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "purchase_history"
+msgstr ""
+
+#: assets/admin.js:107 assets/admin.js:231
+msgid "Purpose"
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:111 assets/admin.js:231 assets/admin.js:232 assets/admin.js:259 assets/admin.js:335
+msgid "push"
+msgstr ""
+
+#: assets/admin.js:111
+msgid "Push title"
+msgstr ""
+
+#: assets/admin.js:229 assets/admin.js:334 assets/admin.js:336
+msgid "PUT"
+msgstr ""
+
+#: assets/admin.js:300
+msgid "QR code for tracking link"
+msgstr ""
+
+#: assets/admin.js:293
+msgid "QR placement"
+msgstr ""
+
+#: assets/admin.js:259
+msgid "Queue marketing message"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:73
+msgid "Quiet hours must be 0 through 23."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:434
+msgid "Quiet hours."
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Raw event retention (days)"
+msgstr ""
+
+#: assets/admin.js:280
+msgid "Reason"
+msgstr ""
+
+#: assets/admin.js:198
+msgid "Rebuild memberships"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:458
+msgid "Rebuild the published segment version before selecting its audience."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:369
+msgid "Receipt awaits submission reconciliation."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:336
+msgid "Receipt not found."
+msgstr ""
+
+#: assets/admin.js:344
+msgid "Recent measurement"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "recent_views"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:207
+msgid "Recipient frequency cap."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Recommendation configuration"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Recommendations.php:130
+msgid "Recommendation limits are out of range."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Recommendations.php:138
+msgid "Recommendation selection is required."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Recommendation strategy"
+msgstr ""
+
+#: assets/admin.js:11
+msgid "Recommendations"
+msgstr ""
+
+#: assets/admin.js:102 assets/admin.js:187 assets/admin.js:201 assets/admin.js:202 assets/admin.js:335
+msgid "recommendations"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Recommendations.php:21 src/Application/Recommendations.php:69
+msgid "Recommendations module is disabled."
+msgstr ""
+
+#: assets/builders.js:31
+msgid "Recommended products"
+msgstr ""
+
+#: assets/admin.js:318
+msgid "Record an actual campaign or placement cost"
+msgstr ""
+
+#: assets/admin.js:231
+msgid "Record an evidenced choice"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Database.php:114
+msgid "Record changed or was removed. Reload and try again."
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Record confirmed payout"
+msgstr ""
+
+#: assets/admin.js:318
+msgid "Record cost"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Database.php:116 src/Infrastructure/Database.php:51
+msgid "Record could not be read."
+msgstr ""
+
+#: assets/admin.js:231
+msgid "Record grant"
+msgstr ""
+
+#: assets/admin.js:232
+msgid "Record identity"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Record reviewed affiliate commission"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Record signed points adjustment"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Record these commissions as paid using this settled external payment reference?"
+msgstr ""
+
+#: assets/admin.js:318
+msgid "Recorded actual cost. Refresh the report to include this entry."
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Recorded cost in minor units"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:476
+msgid "Recursive subworkflow is prohibited."
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Redeem reservation"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:557
+msgid "Redemption allocation provenance unavailable."
+msgstr ""
+
+#: assets/admin.js:289
+msgid "Redirects work without optional shopper tracking. Destinations are restricted by server policy. Link each physical placement to its own identifier."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:281
+msgid "Referee has already claimed this program."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:105
+msgid "Referenced definition UUID is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:282
+msgid "Referenced media attachment is unavailable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:271
+msgid "Referral already claimed."
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Referral and financial review"
+msgstr ""
+
+#: assets/admin.js:281
+msgid "Referral code"
+msgstr ""
+
+#: assets/admin.js:279
+msgid "Referral code to claim"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:276
+msgid "Referral no longer claimable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:263
+msgid "Referral not found."
+msgstr ""
+
+#: assets/admin.js:281
+msgid "Referrals"
+msgstr ""
+
+#: assets/admin.js:202
+msgid "Refresh product catalog"
+msgstr ""
+
+#: assets/admin.js:309
+msgid "Refresh report"
+msgstr ""
+
+#: assets/admin.js:125
+msgid "Refund hold (days)"
+msgstr ""
+
+#: assets/admin.js:248
+msgid "relay"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/HttpProvider.php:122
+msgid "Relay requires an approved public HTTPS hostname in WMOS_RELAY_HOSTS."
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Release reservation"
+msgstr ""
+
+#: assets/admin.js:58
+msgid "Remove condition"
+msgstr ""
+
+#: assets/admin.js:84
+msgid "Remove connection"
+msgstr ""
+
+#: assets/admin.js:82
+msgid "Remove node"
+msgstr ""
+
+#: assets/admin.js:248
+msgid "Replace credential (leave blank to retain)"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:414
+msgid "Report date window must be valid and at most 366 days."
+msgstr ""
+
+#: src/Rest/Api.php:255
+msgid "Request exceeds 256 KiB."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:420
+msgid "Requested channel module is disabled."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:517
+msgid "Required marketing service unavailable."
+msgstr ""
+
+#: assets/admin.js:248
+msgid "resend"
+msgstr ""
+
+#: assets/admin.js:250
+msgid "Resend: from. Twilio: account_sid and from. Meta: phone_number_id. OneSignal: app_id. Relay: approved endpoint and channel. Put token/webhook_secret only in credential."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:188
+msgid "Reservation is no longer spendable."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:130
+msgid "Reservation key conflict."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:163 src/Application/Programs.php:180 src/Application/Programs.php:210
+msgid "Reservation not found."
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Reservation UUID"
+msgstr ""
+
+#: assets/admin.js:278
+msgid "Reserve points"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Resolve duplicate identities"
+msgstr ""
+
+#: assets/admin.js:324
+msgid "Retry"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Revenue / cost"
+msgstr ""
+
+#: assets/admin.js:311
+msgid "Revenue and cost by currency"
+msgstr ""
+
+#: assets/admin.js:310
+msgid "Revenue excludes tax and shipping under the default merchandise basis. Currencies remain separate. Attribution is an allocation, not proof of causal lift. Custom-model changes apply to subsequent reconciliation; historical allocations remain pinned until explicitly rebuilt."
+msgstr ""
+
+#: assets/builders.js:9
+msgid "revenue_minor"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Reverse reviewed merge"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Reverse the merge while keeping consent withdrawn?"
+msgstr ""
+
+#: assets/admin.js:78
+msgid "review"
+msgstr ""
+
+#: assets/admin.js:282
+msgid "Review"
+msgstr ""
+
+#: assets/admin.js:343
+msgid "Review system health"
+msgstr ""
+
+#: assets/admin.js:192
+msgid "Revision"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:23
+msgid "Rule complexity exceeds allowed limits."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:34
+msgid "Rule groups require at least one child."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:52
+msgid "Rule value is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:62
+msgid "Rule values must be bounded scalars."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:556
+msgid "Run not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:87
+msgid "Running or ambiguous external work requires reconciliation."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:288
+msgid "Runtime paused."
+msgstr ""
+
+#: assets/admin.js:324
+msgid "Safe error"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Safe HTML content"
+msgstr ""
+
+#: assets/admin.js:250
+msgid "Safe provider configuration"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:270
+msgid "Same-origin request required."
+msgstr ""
+
+#: assets/admin.js:336
+msgid "Save attribution weights"
+msgstr ""
+
+#: assets/admin.js:250
+msgid "Save connection"
+msgstr ""
+
+#: assets/admin.js:193
+msgid "Save draft"
+msgstr ""
+
+#: assets/admin.js:194
+msgid "Save draft changes before publishing."
+msgstr ""
+
+#: src/Integration/Tracking.php:227
+msgid "Save preferences"
+msgstr ""
+
+#: assets/admin.js:229
+msgid "Save profile"
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Save settings"
+msgstr ""
+
+#: assets/admin.js:197
+msgid "Schedule"
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Schedule timezone (IANA)"
+msgstr ""
+
+#: assets/admin.js:261
+msgid "Scheduled"
+msgstr ""
+
+#: assets/admin.js:117
+msgid "Scheduled UTC instant (optional)"
+msgstr ""
+
+#: assets/admin.js:108
+msgid "segment"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Segments.php:34 src/Application/Segments.php:66 src/Application/Segments.php:85
+msgid "Segment module is disabled."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Segments.php:156
+msgid "Segment not found."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Segments.php:74
+msgid "Segment rebuild is already active."
+msgstr ""
+
+#: assets/admin.js:109
+msgid "Segment UUID"
+msgstr ""
+
+#: assets/admin.js:8
+msgid "Segments"
+msgstr ""
+
+#: assets/admin.js:198 assets/admin.js:199 assets/admin.js:335
+msgid "segments"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:267
+msgid "Self-referral or unavailable contact."
+msgstr ""
+
+#: assets/admin.js:233
+msgid "Send requested email confirmation"
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Sender email"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:222
+msgid "Sender email is invalid."
+msgstr ""
+
+#: assets/admin.js:335
+msgid "Sender name"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:75
+msgid "Sensitive attributes are unsupported."
+msgstr ""
+
+#: assets/admin.js:140
+msgid "SEO description"
+msgstr ""
+
+#: assets/admin.js:139
+msgid "SEO title"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:155
+msgid "Separate registered accounts require account ownership resolution before merge."
+msgstr ""
+
+#: assets/admin.js:119
+msgid "session"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Set limit (1–20), product_ids, category_ids, exclude_ids or days (1–90). Private strategies require current personalization consent."
+msgstr ""
+
+#: assets/admin.js:125
+msgid "Set the approved retention period before publishing this program."
+msgstr ""
+
+#: assets/admin.js:334
+msgid "Settings and definition import"
+msgstr ""
+
+#: assets/admin.js:352
+msgid "Settings and import"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:219
+msgid "Settings revision conflict. Refresh before saving."
+msgstr ""
+
+#: assets/admin.js:334
+msgid "Settings saved."
+msgstr ""
+
+#: assets/admin.js:300
+msgid "Show QR"
+msgstr ""
+
+#: assets/admin.js:57
+msgid "Single condition"
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:231 assets/admin.js:259 assets/admin.js:335
+msgid "sms"
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:231 assets/admin.js:259 assets/admin.js:335
+msgid "social"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "split"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:147
+msgid "Split branches require distinct destinations."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:144
+msgid "Split requires multiple branches."
+msgstr ""
+
+#: assets/admin.js:195
+msgid "Start"
+msgstr ""
+
+#: assets/admin.js:190 assets/admin.js:227 assets/admin.js:246 assets/admin.js:261 assets/admin.js:281 assets/admin.js:282 assets/admin.js:293 assets/admin.js:324
+msgid "State"
+msgstr ""
+
+#: assets/builders.js:9
+msgid "state"
+msgstr ""
+
+#: assets/admin.js:290
+msgid "Store destination URL"
+msgstr ""
+
+#: src/Integration/Tracking.php:222
+msgid "Store tracking is disabled."
+msgstr ""
+
+#: assets/admin.js:110 assets/admin.js:136
+msgid "Subject"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:138
+msgid "Subject active-run limit reached."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Experiments.php:38
+msgid "Subject is not experiment eligible."
+msgstr ""
+
+#: src/Integration/Preferences.php:43
+msgid "Subscription confirmed."
+msgstr ""
+
+#: assets/builders.js:11
+msgid "subworkflow"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:466
+msgid "Subworkflow depth exceeds three."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Surface"
+msgstr ""
+
+#: assets/admin.js:352
+msgid "System health"
+msgstr ""
+
+#: assets/admin.js:323
+msgid "System health and execution"
+msgstr ""
+
+#: assets/builders.js:90
+msgid "T"
+msgstr ""
+
+#: assets/admin.js:78
+msgid "tag"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Platform/Plugin.php:91
+msgid "Tag is required."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:73
+msgid "Tag operation must be add or remove."
+msgstr ""
+
+#: assets/builders.js:9
+msgid "tags"
+msgstr ""
+
+#: assets/admin.js:228
+msgid "Tags (comma separated)"
+msgstr ""
+
+#: assets/admin.js:234
+msgid "Target contact UUID"
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:231 assets/admin.js:232 assets/admin.js:248 assets/admin.js:259 assets/admin.js:335
+msgid "telegram"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:290
+msgid "Telegram identity must be a verified numeric chat ID."
+msgstr ""
+
+#: assets/admin.js:114
+msgid "Template language"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:263
+msgid "Template media requires an HTTPS link."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:59
+msgid "Terminal definitions must be duplicated to edit."
+msgstr ""
+
+#: assets/admin.js:300
+msgid "Test the printed code at the intended size before placement."
+msgstr ""
+
+#: assets/admin.js:61
+msgid "Tests whether the field is known."
+msgstr ""
+
+#: src/Integration/Preferences.php:38
+msgid "The form expired. Reload this page and try again."
+msgstr ""
+
+#: src/Rest/Api.php:292
+msgid "The operation could not be completed. Check system health."
+msgstr ""
+
+#: assets/admin.js:69
+msgid "The outline and node forms provide the same editing functions without dragging. Server validation rejects unreachable nodes, invalid branches and loops."
+msgstr ""
+
+#: assets/builders.js:69
+msgid "The workflow needs exactly one trigger node."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:164
+msgid "This criterion requires bounded asynchronous evaluation."
+msgstr ""
+
+#: assets/admin.js:298
+msgid "This link is too long for a QR code."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Promotions.php:32
+msgid "This offer requires a supported promotion strategy; native coupons cannot execute it."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:329
+msgid "This operation is already in progress."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Queue.php:76
+msgid "This outcome cannot be blindly retried."
+msgstr ""
+
+#: src/Integration/Preferences.php:45
+msgid "This preference link is invalid or expired."
+msgstr ""
+
+#: src/Application/Privacy.php:176
+msgid "This store may maintain marketing contact identities, purpose and channel consent, campaign interactions and program financial records. Enabled providers receive the minimum destination and reviewed message data. Nonessential tracking requires configured permission. Financial obligations and minimized suppression evidence may be retained; external processor deletion is reviewed separately. Ask the store for its enabled providers, purposes and retention policy."
+msgstr ""
+
+#: assets/admin.js:325
+msgid "Time"
+msgstr ""
+
+#: assets/admin.js:309
+msgid "time_decay"
+msgstr ""
+
+#: assets/admin.js:77
+msgid "Timeout (seconds)"
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Title"
+msgstr ""
+
+#: assets/admin.js:309
+msgid "To"
+msgstr ""
+
+#: assets/admin.js:84
+msgid "To node"
+msgstr ""
+
+#: assets/admin.js:293
+msgid "Tracked destinations"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:132
+msgid "Tracking is disabled."
+msgstr ""
+
+#: assets/admin.js:289
+msgid "Tracking links and QR placements"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Integration/Tracking.php:288
+msgid "Tracking links require an absolute URL on this store."
+msgstr ""
+
+#: src/Integration/Tracking.php:111
+msgid "Tracking unavailable."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "trending"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "trigger"
+msgstr ""
+
+#: assets/admin.js:68
+msgid "Trigger event"
+msgstr ""
+
+#: assets/admin.js:248
+msgid "twilio"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:57
+msgid "Twilio account SID and E.164 sender required."
+msgstr ""
+
+#: assets/admin.js:122
+msgid "Type"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Programs.php:347
+msgid "Unallocated refund requires commission review."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Measurement.php:271 src/Application/Measurement.php:418
+msgid "Unknown attribution model."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:267
+msgid "Unknown definition fields."
+msgstr ""
+
+#: assets/builders.js:33
+msgid "Unknown definition kind"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Definitions.php:163
+msgid "Unknown definition kind."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Privacy.php:24
+msgid "Unknown export cursor group."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:37
+msgid "Unknown node configuration fields."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/HttpProvider.php:25
+msgid "Unknown provider adapter."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Recommendations.php:127
+msgid "Unknown recommendation strategy/configuration."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Database.php:160
+msgid "Unknown record field."
+msgstr ""
+
+#. REST formats the dynamic value into this translated validation message.
+#: src/Rest/Api.php:264 src/Rest/Api.php:298
+#, php-format
+msgid "Unknown request field: %s"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:47
+msgid "Unknown rule field or operator."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Database.php:24 src/Infrastructure/Schema.php:59
+msgid "Unknown table."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:182
+msgid "Unmerge reason required."
+msgstr ""
+
+#: src/Integration/Preferences.php:49
+msgid "Unsubscribe from email"
+msgstr ""
+
+#: src/Rest/Api.php:148
+msgid "Unsubscribe from marketing"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:402
+msgid "Unsubscribe token expired."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Secrets.php:35
+msgid "Unsupported encrypted record."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Rest/Api.php:451
+msgid "Unsupported financial resource."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:293
+msgid "Unsupported identity."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:346
+msgid "Unsupported node type."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Contacts.php:123
+msgid "Unsupported personal channel."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Messaging.php:35
+msgid "Unsupported provider."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:138
+msgid "Unsupported rule operator."
+msgstr ""
+
+#: assets/admin.js:190
+msgid "Updated"
+msgstr ""
+
+#: assets/admin.js:134
+msgid "Use an attachment from the WordPress Media Library; the plugin does not import arbitrary remote files."
+msgstr ""
+
+#: assets/admin.js:117
+msgid "Use an ISO date with timezone, for example 2026-11-01T09:00:00Z. Publish before scheduling."
+msgstr ""
+
+#: assets/admin.js:290
+msgid "Use approved UTM/campaign/placement dimensions. Never put email or other personal data in a link."
+msgstr ""
+
+#: assets/admin.js:135
+msgid "Use asset"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Rules.php:55
+msgid "Use exists for missing data; scalar comparisons require a value."
+msgstr ""
+
+#: assets/admin.js:102
+msgid "Use public content and a public recommendation strategy for shared cached HTML."
+msgstr ""
+
+#: assets/admin.js:120
+msgid "Use unique keys and positive integer weights totaling 10000. Results are exploratory unless an approved protocol is configured."
+msgstr ""
+
+#: assets/builders.js:9
+msgid "user_id"
+msgstr ""
+
+#: assets/admin.js:298
+msgid "UTF-8"
+msgstr ""
+
+#: assets/admin.js:337
+msgid "Validate and import draft"
+msgstr ""
+
+#: assets/admin.js:48
+msgid "Value"
+msgstr ""
+
+#: assets/admin.js:120
+msgid "Variants"
+msgstr ""
+
+#: assets/admin.js:232
+msgid "Verification evidence reference"
+msgstr ""
+
+#: assets/admin.js:232
+msgid "Verified delivery identity"
+msgstr ""
+
+#: assets/admin.js:230
+msgid "View consent history"
+msgstr ""
+
+#: assets/admin.js:200
+msgid "View results"
+msgstr ""
+
+#: assets/builders.js:11
+msgid "wait"
+msgstr ""
+
+#: assets/admin.js:77
+msgid "Wait for event"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:300
+msgid "Wait has not completed."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:66
+msgid "Wait requires an event and bounded timeout."
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:231 assets/admin.js:259 assets/admin.js:335 assets/builders.js:11
+msgid "webhook"
+msgstr ""
+
+#: src/Rest/Api.php:142
+msgid "Webhook body exceeds 128 KiB."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:12
+msgid "Webhook payload too large."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:45
+msgid "Webhook replay window exceeded."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Graph.php:90
+msgid "Webhook requires a public HTTPS destination without credentials."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Infrastructure/Providers/WebhookVerifier.php:39
+msgid "Webhook verification secret missing."
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Domain/Money.php:55
+msgid "Weights must be nonnegative integer quanta."
+msgstr ""
+
+#: assets/admin.js:105 assets/admin.js:112 assets/admin.js:231 assets/admin.js:259 assets/admin.js:335
+msgid "whatsapp"
+msgstr ""
+
+#: assets/admin.js:231
+msgid "Withdraw"
+msgstr ""
+
+#: src/Application/Privacy.php:167 src/Application/Privacy.php:171
+msgid "WooCommerce Marketing OS"
+msgstr ""
+
+#: assets/admin.js:134
+msgid "WordPress attachment ID (optional)"
+msgstr ""
+
+#. Server validation message; translated by the REST presentation layer.
+#: src/Application/Automation.php:362
+msgid "Workflow activation budget exceeded."
+msgstr ""
+
+#: assets/admin.js:90
+msgid "Workflow canvas"
+msgstr ""
+
+#: assets/admin.js:71
+msgid "Workflow canvas outline"
+msgstr ""
+
+#: assets/admin.js:90
+msgid "Workflow connections; use the outline below to edit each node"
+msgstr ""
+
+#: assets/admin.js:190
+msgid "Yes"
+msgstr ""
+
+#: src/Integration/Preferences.php:43
+msgid "You are unsubscribed."
+msgstr ""
+
+#: src/Platform/Admin.php:33
+msgid "You cannot access marketing administration."
+msgstr ""
+
+#: src/Rest/Api.php:249
+msgid "You cannot perform this marketing operation."
+msgstr ""

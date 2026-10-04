@@ -1,0 +1,9 @@
+{
+  "name": "qrcode-generator",
+  "source": "https://github.com/kazuhikoarase/qrcode-generator",
+  "commit": "83b7e8fe3fddd3b0368dbafd6ce56995bd25e3c8",
+  "license": "MIT",
+  "upstream_sha256": "79ec86f82856005b1c887905cfccfcfbec3821ca61c7fd5a952faa5f778f791c",
+  "local_changes": "IIFE wrapper exports window.wmosQRCode without global qrcode symbol",
+  "uses": "Local administration-only QR generation; no remote data transfer"
+}

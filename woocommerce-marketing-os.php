@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: WooCommerce Marketing OS
- * Plugin URI: https://github.com/ildrm/woocommerce-marketing
+ * Plugin URI: https://github.com/ildrm/woocommerce-marketing-os
  * Description: Consent-aware campaigns, workflows, customer profiles, messaging, programs and attribution for WooCommerce.
  * Version: 1.0.0
  * Author: Shahin Ilderemi
